@@ -13,9 +13,8 @@ WORKDIR /app
 COPY . /app
 VOLUME /app
 
-
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 5300
 CMD [ "npm", "run", "serve" ]
 
